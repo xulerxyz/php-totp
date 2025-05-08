@@ -1,0 +1,15 @@
+{
+    "name": "contipay/php-totp",
+    "description": "A simple and lightweight PHP library for generating Time-based One-Time Passwords (TOTP)",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Contipay\\PhpTotp\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
