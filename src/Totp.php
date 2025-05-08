@@ -51,7 +51,7 @@ class Totp
             $buffer = ($buffer << 5) | $pos;
             $bitsLeft += 5;
 
-            if ($bitsLeft > 8) {
+            while ($bitsLeft >= 8) {
                 $bitsLeft -= 8;
                 $output .= chr(($buffer >> $bitsLeft) & 0xFF);
             }

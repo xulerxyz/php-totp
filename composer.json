@@ -3,6 +3,7 @@
     "description": "A simple and lightweight PHP library for generating Time-based One-Time Passwords (TOTP)",
     "type": "library",
     "license": "MIT",
+    "version": "1.0.1",
     "require": {
         "php": ">=7.1"
     },
